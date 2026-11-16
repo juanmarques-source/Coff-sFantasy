@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cafeteria.css">
+</head>
+<header> 
+        <nav>
+            <ul class="menutelainicio">
+                <li class="frasesmenuinicio"><a href="inicio.html">Início</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coff's Fantasy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cardapio.css">
+</head>
+<body>
+   
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <span class="pill">✦ O segredo mais bem guardado da cidade</span>
+        <h1>Um menu para<br>sair do comum</h1>
+        <p>Cafés curiosos, chás perfumados e pequenos encantos preparados para beber sem pressa.</p>
+        <ul class="chips">
+          <li><a href="#cafes" class="chip chip--active">Cafés</a></li>
+          <li><a href="#chas" class="chip">Chás</a></li>
+          <li><a href="#geladas" class="chip">Bebidas</a></li>
+          <li><a href="#doces" class="chip">Doces</a></li>
+          <li><a href="#salgados" class="chip">Salgados</a></li>
+        </ul>
+      </div>
+      <div class="hero__image">
+        <img src="img/cardapio/Chá Encantado no Jardim Maravilhoso.png" alt="Mesa de chá em um jardim encantado">
+      </div>
+    </div>
+  </section>
+  <!-- MENU -->
+  <section class="menu">
+    <div class="container">
+      <div class="menu__head">
+        <div>
+          <span class="eyebrow">Escolha sua próxima curiosidade</span>
+          <h2>A mesa está posta</h2>
+        </div>
+        <div class="legend">
+          <span><i class="dot dot--gold"></i> Novidade</span>
+          <span><i class="dot dot--dark"></i> Vegano</span>
+        </div>
+      </div>
+      <div class="menu__grid">
+        <!-- Cafés -->
+        <article class="card card--cream" id="cafes">
+          <header class="card__head">
+            <span class="card__icon">☕</span>
+            <div>
+              <h3>Cafés</h3>
+              <p>Pedidos com um ar misterioso</p>
+            </div>
+          </header>
+          <ul class="items">
+            <li>
+              <div class="item__row"><strong>Espresso Coelho Branco</strong><span class="price">R$ 9</span></div>
+              <div class="item__row"><small>Shot, saca-rolhas e deixa deixar derreter</small><span class="tag tag--gold">Novidade</span></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Latte Jardim de Hortelã</strong><span class="price">R$ 17</span></div>
+              <div class="item__row"><small>Espresso, leite cremoso e xarope de hortelã</small><span class="tag tag--gold">Novidade</span></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Mocha Meia-Noite</strong><span class="price">R$ 19</span></div>
+              <div class="item__row"><small>Chocolate 70%, espresso e chantilly de baunilha</small></div>
+            </li>
+          </ul>
+        </article>
+        <!-- Chás -->
+        <article class="card card--green" id="chas">
+          <header class="card__head">
+            <span class="card__icon">🫖</span>
+            <div>
+              <h3>Chás</h3>
+              <p>Servidos com todo o cuidado</p>
+            </div>
+          </header>
+          <ul class="items">
+            <li>
+              <div class="item__row"><strong>Chá das Cinco Impossíveis</strong><span class="price">R$ 16</span></div>
+              <div class="item__row"><small>Chá preto, bergamota e pétalas de rosa</small><span class="tag tag--gold">Novidade</span></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Infusão Jardim Secreto</strong><span class="price">R$ 12</span></div>
+              <div class="item__row"><small>Hibisco, erva-doce e flores secas</small><span class="tag tag--dark">Vegano</span></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Chai do Relojoeiro</strong><span class="price">R$ 14</span></div>
+              <div class="item__row"><small>Especiarias, leite e mel</small></div>
+            </li>
+          </ul>
+        </article>
+        <!-- Bebidas geladas -->
+        <article class="card card--white" id="geladas">
+          <header class="card__head">
+            <span class="card__icon">🧊</span>
+            <div>
+              <h3>Bebidas geladas</h3>
+              <p>Refrescantes para qualquer dia</p>
+            </div>
+          </header>
+          <ul class="items">
+            <li>
+              <div class="item__row"><strong>Tônica do Espelho</strong><span class="price">R$ 14</span></div>
+              <div class="item__row"><small>Água tônica, espresso e laranja-bahia</small><span class="tag tag--gold">Novidade</span></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Limonada Lilás</strong><span class="price">R$ 15</span></div>
+              <div class="item__row"><small>Limão-siciliano, lavanda e água com gás</small><span class="tag tag--dark">Vegano</span></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Frappé Nuvem Violeta</strong><span class="price">R$ 21</span></div>
+              <div class="item__row"><small>Baunilha, frutas roxas e chantilly</small></div>
+            </li>
+          </ul>
+        </article>
+        <!-- Doces -->
+        <article class="card card--cream" id="doces">
+          <header class="card__head">
+            <span class="card__icon">🍰</span>
+            <div>
+              <h3>Doces</h3>
+              <p>Pequenos prazeres da confeitaria</p>
+            </div>
+          </header>
+          <ul class="items">
+            <li>
+              <div class="item__row"><strong>Bolo Xadrez Encantado</strong><span class="price">R$ 18</span></div>
+              <div class="item__row"><small>Baunilha, cacau e geleia de damasco</small><span class="tag tag--gold">Novidade</span></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Tartelete Rainha de Frutas</strong><span class="price">R$ 16</span></div>
+              <div class="item__row"><small>Creme de baunilha e frutas vermelhas</small></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Cookie Come-me</strong><span class="price">R$ 11</span></div>
+              <div class="item__row"><small>Chocolate meio amargo e flor de sal</small><span class="tag tag--dark">Vegano</span></div>
+            </li>
+          </ul>
+        </article>
+        <!-- Salgados -->
+        <article class="card card--green" id="salgados">
+          <header class="card__head">
+            <span class="card__icon">🥐</span>
+            <div>
+              <h3>Salgados</h3>
+              <p>Para matar a fome com charme</p>
+            </div>
+          </header>
+          <ul class="items">
+            <li>
+              <div class="item__row"><strong>Croissant da Chapeleira</strong><span class="price">R$ 22</span></div>
+              <div class="item__row"><small>Queijo, ervas finas e geleia de pimenta</small><span class="tag tag--dark">Vegetariano</span></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Sanduíche Carta Marcada</strong><span class="price">R$ 29</span></div>
+              <div class="item__row"><small>Pão de fermentação natural, peru e queijo brie</small></div>
+            </li>
+            <li>
+              <div class="item__row"><strong>Quiche Bosque Verde</strong><span class="price">R$ 24</span></div>
+              <div class="item__row"><small>Alho-poró, espinafre e queijo de cabra</small><span class="tag tag--gold">Novidade</span></div>
+            </li>
+          </ul>
+        </article>
+        <!-- Surpresa -->
+        <aside class="card card--purple">
+          <span class="card__icon card__icon--light">✦</span>
+          <h3>Uma surpresa fora do baralho</h3>
+          <p>Pergunte pela criação especial do momento. Ela deixa quem vê e prova... e indigo — ou o contrário —, e muito mais.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta__grid">
+      <div class="cta__image">
+        <img src="img/cardapio/Café Jardim ao Entardecer.png" alt="Jardim iluminado à noite">
+      </div>
+      <div class="cta__text">
+        <span class="cta__mark">✦</span>
+        <h2>Atravesse a porta. A mesa já espera.</h2>
+        <p>Rua das Fragrâncias, 77 · Terça a domingo, 9h–20h. Venha nos visitar ou peça seu favorito para levar.</p>
+        <div class="cta__buttons">
+          <a href="contato.html" class="btn btn--gold">Como chegar</a>
+          <a href="#" class="btn btn--ghost">Pedir agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+ <footer class="rodape">
+  <div class="rodape__topo">
+    <div class="rodape__divisor"><span>♡</span><span>●</span><span>♡</span></div>
+  </div>
+
+  <div class="rodape__grid">
+    
+    <div class="rodape__coluna rodape__marca">
+      <h3 class="rodape__logo">Coff's Fantasy</h3>
+      <p class="rodape__slogan">
+        Onde a fantasia encontra o sabor. Uma xícara de cada vez.
+      </p>
+    </div>
+
+    
+    <nav class="rodape__coluna" aria-label="Navegação do rodapé">
+      <h4 class="rodape__titulo">Explore</h4>
+      <ul class="rodape__lista">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#historia">Nossa História</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    
+    <div class="rodape__coluna">
+      <h4 class="rodape__titulo">Horários</h4>
+      <ul class="rodape__lista">
+        <li>Seg a Sex: 8h às 20h</li>
+        <li>Sábado: 9h às 22h</li>
+        <li>Domingo: 9h às 18h</li>
+      </ul>
+    </div>
+
+   
+    <div class="rodape__coluna" id="contato">
+      <h4 class="rodape__titulo">Contato</h4>
+      <ul class="rodape__lista">
+        <li>Rua das Maravilhas, 123</li>
+        <li>(12) 99999-9999</li>
+        <li><a href="mailto:contato@coffsfantasy.com">contato@coffsfantasy.com</a></li>
+      </ul>
+
+      <div class="rodape__redes">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="rodape__base">
+    <p>© 2026 Coff's Fantasy. Todos os direitos reservados.</p>
+    <p class="rodape__frase">♡ Feito com magia ♡</p>
+  </div>
+</footer>
+</body>
+</html>

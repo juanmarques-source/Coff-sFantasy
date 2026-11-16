@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="shortcut icon" href="img/Chá Mágico no País das Maravilhas.png" type="image/x-icon">
+    <title>Coff's Fantasy</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul class="menutelainicio">
+                <li class="frasesmenuinicio"><a href="inicio.html">Início</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+    </header>
+     <main>
+    <section class="hero" aria-labelledby="hero-titulo">
+     <img class="hero__imagem" src="img/Alice no País das Maravilhas.png" alt="Cafeteria do País das Maravilhas">
+      <div class="hero__conteudo">
+        <h1 id="hero-titulo">Bem-vindo à Cafeteria do País das Maravilhas</h1>
+        <p class="hero__texto">
+          Onde cada xícara conta uma história mágica e o tempo corre em seu próprio compasso.
+        </p>
+        <a class="botao" href="cardapio.html">Ver Cardápio</a>
+      </div>
+
+      <div class="hero__pontos" role="group" aria-label="Slides do destaque">
+        <button class="ponto ponto--ativo" type="button" aria-label="Slide 1" aria-current="true"></button>
+        <button class="ponto" type="button" aria-label="Slide 2"></button>
+        <button class="ponto" type="button" aria-label="Slide 3"></button>
+        <button class="ponto" type="button" aria-label="Slide 4"></button>
+      </div>
+    </section>
+     
+    <section class="cardapio">
+  <header class="cardapio__topo">
+    <h2 class="cardapio__titulo">Nosso Cardápio Encantado</h2>
+    <div class="cardapio__divisor"><span>♡</span><span>●</span><span>♡</span></div>
+  </header>
+
+ 
+  <div class="categoria">
+    <h3 class="categoria__titulo"><span class="categoria__icone">☕</span> Cafés Especiais</h3>
+
+    <div class="categoria__grid">
+      <article class="item">
+        <img class="item__img" src="img/Latte da Rainha no País das Maravilhas.png" alt="Latte da Rainha">
+        <div class="item__corpo">
+          <div class="item__linha">
+            <h4 class="item__nome">Latte da Rainha</h4>
+            <span class="item__preco">R$ 18,90</span>
+          </div>
+          <p class="item__desc">Latte cremoso com calda de rosas e espuma aveludada</p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="item__img" src="img/Expresso do Chapeleiro em Wonderland.png" alt="Expresso do Chapeleiro">
+        <div class="item__corpo">
+          <div class="item__linha">
+            <h4 class="item__nome">Expresso do Chapeleiro</h4>
+            <span class="item__preco">R$ 14,90</span>
+          </div>
+          <p class="item__desc">Shot duplo com toque de canela e cardamomo</p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="item__img" src="img/Mocha Cheshire_ Magia em Cada Gole.png" alt="Mocha Cheshire">
+        <div class="item__corpo">
+          <div class="item__linha">
+            <h4 class="item__nome">Mocha Cheshire</h4>
+            <span class="item__preco">R$ 19,90</span>
+          </div>
+          <p class="item__desc">Chocolate belga com espresso e chantilly marmorizado</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+<section class="historia">
+  <nav class="historia__nav">
+    <button class="historia__seta" aria-label="Anterior">⊗</button>
+    <div class="historia__pontos"><span>▲</span><span>◆</span><span>▲</span><span>♥</span></div>
+    <button class="historia__seta" aria-label="Próximo">⊗</button>
+  </nav>
+
+  <header class="historia__topo">
+    <h2 class="historia__titulo">Nossa História</h2>
+    <div class="historia__divisor"><span>♡</span><span>●</span><span>♡</span></div>
+  </header>
+
+  <div class="historia__conteudo">
+    <figure class="historia__figura">
+      <img src="img/Alice no País das Maravilhas_ Sonhos e Descobertas.png" alt="Chá das Maravilhas com Alice e o Chapeleiro Maluco">
+    </figure>
+
+    <div class="historia__texto">
+      <p class="historia__destaque">
+        Inspirados pelo universo mágico de Lewis Carroll, criamos um espaço onde a fantasia
+        encontra o sabor. Cada detalhe da nossa cafeteria foi pensado para transportar você
+        ao País das Maravilhas — das xícaras descombinadas aos sabores que desafiam a imaginação.
+      </p>
+
+      <p class="historia__paragrafo">
+        Desde 2019, servimos não apenas café, mas experiências encantadas. Nossos confeiteiros
+        e baristas trabalham como alquimistas para entregar pratos que alimentam a alma e
+        despertam a criança que existe em você.
+      </p>
+
+      <div class="historia__numeros">
+        <div class="numero">
+          <strong class="numero__valor">5 anos</strong>
+          <span class="numero__rotulo">de magia</span>
+        </div>
+        <div class="numero">
+          <strong class="numero__valor">+50.000</strong>
+          <span class="numero__rotulo">xícaras servidas</span>
+        </div>
+        <div class="numero">
+          <strong class="numero__valor">4.9★</strong>
+          <span class="numero__rotulo">no Google</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="depoimentos" id="depoimentos">
+  <header class="depoimentos__topo">
+    <h2 class="depoimentos__titulo">O Que Dizem Nossos Convidados</h2>
+    <div class="depoimentos__divisor"><span>♡</span><span>●</span><span>♡</span></div>
+  </header>
+
+  <div class="depoimentos__carrossel">
+    <button class="depoimentos__seta" id="depPrev" aria-label="Avaliações anteriores">‹</button>
+
+    <div class="depoimentos__viewport">
+      <div class="depoimentos__track" id="depTrack">
+
+        <article class="depoimento">
+          <div class="depoimento__cabecalho">
+            <img class="depoimento__avatar" src="img/avaliacao/Retrato encantador de Alice animada.png" alt="Marina S.">
+            <span class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</span>
+          </div>
+          <p class="depoimento__texto">"Parece que entrei num sonho! O ambiente é totalmente mágico e o café é impecável, com detalhes que encantam os olhos."</p>
+          <strong class="depoimento__nome">Marina S.</strong>
+          <span class="depoimento__cargo">Fã de Lattes</span>
+        </article>
+
+        <article class="depoimento">
+          <div class="depoimento__cabecalho">
+            <img class="depoimento__avatar" src="img/avaliacao/Avatar 3D Jovem com Hoodie Escuro.png" alt="Carlos R.">
+            <span class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</span>
+          </div>
+          <p class="depoimento__texto">"O bolo Eat Me é simplesmente o melhor red velvet que já provei na vida. Úmido, fresco e belíssimo."</p>
+          <strong class="depoimento__nome">Carlos R.</strong>
+          <span class="depoimento__cargo">Apreciador de Doces</span>
+        </article>
+
+        <article class="depoimento">
+          <div class="depoimento__cabecalho">
+            <img class="depoimento__avatar" src="img/avaliacao/Retrato animado com coque e sorriso.png" alt="Ana L.">
+            <span class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</span>
+          </div>
+          <p class="depoimento__texto">"Lugar perfeito para um brunch especial. A atenção ao cliente nos faz sentir como realeza. Voltarei com certeza!"</p>
+          <strong class="depoimento__nome">Ana L.</strong>
+          <span class="depoimento__cargo">Brunch Lover</span>
+        </article>
+
+        <article class="depoimento">
+          <div class="depoimento__cabecalho">
+            <img class="depoimento__avatar" src="img/avatar-lucas.jpg" alt="Lucas M.">
+            <span class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</span>
+          </div>
+          <p class="depoimento__texto">"O Espresso do Chapeleiro tem um toque de canela que faz toda a diferença. Cada xícara é uma pequena aventura."</p>
+          <strong class="depoimento__nome">Lucas M.</strong>
+          <span class="depoimento__cargo">Amante de Espresso</span>
+        </article>
+
+        <article class="depoimento">
+          <div class="depoimento__cabecalho">
+            <img class="depoimento__avatar" src="img/avatar-beatriz.jpg" alt="Beatriz C.">
+            <span class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</span>
+          </div>
+          <p class="depoimento__texto">"Levei minha filha e ela amou cada detalhe da decoração. Os macarons da Rainha são uma obra de arte."</p>
+          <strong class="depoimento__nome">Beatriz C.</strong>
+          <span class="depoimento__cargo">Mãe e Confeiteira Amadora</span>
+        </article>
+
+        <article class="depoimento">
+          <div class="depoimento__cabecalho">
+            <img class="depoimento__avatar" src="img/avatar-rafael.jpg" alt="Rafael T.">
+            <span class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</span>
+          </div>
+          <p class="depoimento__texto">"A Tosta Real com mel trufado é de outro mundo. Ambiente aconchegante e atendimento impecável."</p>
+          <strong class="depoimento__nome">Rafael T.</strong>
+          <span class="depoimento__cargo">Explorador de Sabores</span>
+        </article>
+
+      </div>
+    </div>
+
+    <button class="depoimentos__seta" id="depNext" aria-label="Próximas avaliações">›</button>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+ <footer class="rodape">
+  <div class="rodape__topo">
+    <div class="rodape__divisor"><span>♡</span><span>●</span><span>♡</span></div>
+  </div>
+
+  <div class="rodape__grid">
+    
+    <div class="rodape__coluna rodape__marca">
+      <h3 class="rodape__logo">Coff's Fantasy</h3>
+      <p class="rodape__slogan">
+        Onde a fantasia encontra o sabor. Uma xícara de cada vez.
+      </p>
+    </div>
+
+    
+    <nav class="rodape__coluna" aria-label="Navegação do rodapé">
+      <h4 class="rodape__titulo">Explore</h4>
+      <ul class="rodape__lista">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#historia">Nossa História</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    
+    <div class="rodape__coluna">
+      <h4 class="rodape__titulo">Horários</h4>
+      <ul class="rodape__lista">
+        <li>Seg a Sex: 8h às 20h</li>
+        <li>Sábado: 9h às 22h</li>
+        <li>Domingo: 9h às 18h</li>
+      </ul>
+    </div>
+
+   
+    <div class="rodape__coluna" id="contato">
+      <h4 class="rodape__titulo">Contato</h4>
+      <ul class="rodape__lista">
+        <li>Rua das Maravilhas, 123</li>
+        <li>(12) 99999-9999</li>
+        <li><a href="mailto:contato@coffsfantasy.com">contato@coffsfantasy.com</a></li>
+      </ul>
+
+      <div class="rodape__redes">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="rodape__base">
+    <p>© 2026 Coff's Fantasy. Todos os direitos reservados.</p>
+    <p class="rodape__frase">♡ Feito com magia ♡</p>
+  </div>
+</footer>
+</body>
+</html>
