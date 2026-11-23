@@ -226,7 +226,7 @@ body {
             rgba(37, 23, 12, 0.17),
             rgba(37, 23, 12, 0.24)
         ),
-        url(Colagem\ Antiga\ de\ Alice\ no\ País\ das\ Maravilhas.png);
+        url(Colagem Antiga de Alice no País das Maravilhas.png);
 
 
     background-size: cover;
@@ -382,4 +382,5 @@ body {
         font-size: clamp(10px, 2.7vw, 12px);
     }
 }
+
 
