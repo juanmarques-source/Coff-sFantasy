@@ -118,7 +118,7 @@ body {
             rgba(0, 15, 14, 5),
             transparent 75%
         ),
-        url(img/unnamed.png);
+        url(unnamed.png);
 
 
     background-size: cover;
@@ -382,5 +382,6 @@ body {
         font-size: clamp(10px, 2.7vw, 12px);
     }
 }
+
 
 
